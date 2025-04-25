@@ -1,0 +1,262 @@
+﻿@using Microsoft.AspNetCore.Identity
+@{
+    var ctrl = (string)ViewContext.RouteData.Values["controller"]!;
+    var act = (string)ViewContext.RouteData.Values["action"]!;
+    bool isAuthPage = ctrl == "Account" && (act == "Login" || act == "Register");
+}
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>@ViewData["Title"] | Antojería Tica</title>
+    <meta name="description" content="Disfruta de los mejores antojitos costarricenses." />
+    <meta name="theme-color" content="#00247D" />
+
+    <link rel="icon" href="~/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-…" crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+          rel="stylesheet" integrity="sha384-…" crossorigin="anonymous" />
+    <link href="~/css/site.css" rel="stylesheet" />
+
+    <style>
+        :root {
+            --cr-blue: #00247D;
+            --cr-red: #CE1126;
+            --cr-white: #FFFFFF;
+        }
+
+        [data-theme="dark"] {
+            --cr-blue: #1a1a1a;
+            --cr-red: #ff4c4c;
+            --cr-white: #f0f0f0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: var(--cr-white);
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .navbar {
+            padding: 1rem 1.5rem;
+            transition: padding .3s, background-color .3s;
+            background-color: var(--cr-blue);
+        }
+
+        .navbar-shrink {
+            padding: .5rem 1rem !important;
+            box-shadow: 0 4px 6px rgba(0,0,0,.1);
+        }
+
+        .offcanvas-end {
+            background: var(--cr-blue);
+            color: var(--cr-white);
+        }
+
+        .offcanvas a {
+            color: var(--cr-white);
+        }
+
+        .btn-cr-red {
+            background-color: var(--cr-red);
+            border-color: var(--cr-red);
+            color: var(--cr-white);
+        }
+
+        footer {
+            background: linear-gradient(135deg, var(--cr-red), var(--cr-blue));
+        }
+
+        #preloader {
+            position: fixed;
+            inset: 0;
+            background: var(--cr-white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        #backToTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            z-index: 999;
+        }
+        /* Heroicons size */
+        .icon {
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="preloader">
+        <div class="spinner-border text-cr-red" role="status">
+            <span class="visually-hidden">Cargando...</span>
+        </div>
+    </div>
+
+    <a href="#main-content" class="visually-hidden-focusable">Saltar al contenido</a>
+
+    @if (!isAuthPage)
+    {
+        <nav id="mainNav" class="navbar fixed-top navbar-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center animate__animated animate__fadeInDown"
+                   asp-controller="Home" asp-action="Index">
+                    <img src="~/images/logo.png" alt="Antojería Tica" height="40" loading="lazy" class="me-2" />
+                    <span class="fw-bold fs-4 text-white">Antojería Tica</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNav" aria-controls="offcanvasNav" aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-white" id="offcanvasNavLabel">Menú</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Cerrar"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Menu" asp-action="Index">Menú</a></li>
+                            @if (User.IsInRole("admin"))
+                            {
+                                <li class="nav-item"><a class="nav-link" asp-controller="Menu" asp-action="Create">Nuevo Ítem</a></li>
+                            }
+                            @if (User.IsInRole("usuario"))
+                            {
+                                <li class="nav-item"><a class="nav-link" asp-controller="Orders" asp-action="Create">Hacer Pedido</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-controller="Orders" asp-action="MyOrders">Mis Pedidos</a></li>
+                            }
+                            @if (User.IsInRole("empleado"))
+                            {
+                                <li class="nav-item"><a class="nav-link" asp-controller="Orders" asp-action="Pending">Pedidos</a></li>
+                            }
+                        </ul>
+                        <form class="d-flex mb-3" role="search" method="get" asp-controller="Menu" asp-action="Search">
+                            <input class="form-control me-2" type="search" name="q" placeholder="Buscar..." aria-label="Buscar" />
+                            <button class="btn btn-outline-light" type="submit">
+                                <img src="https://unpkg.com/heroicons@2.0.13/24/outline/magnifying-glass.svg" class="icon" alt="Buscar" />
+                            </button>
+                        </form>
+                        <div class="d-flex align-items-center">
+                            <button id="themeToggle" class="btn btn-outline-light me-3" aria-label="Cambiar tema">
+                                <img src="https://unpkg.com/heroicons@2.0.13/24/outline/moon.svg" class="icon" alt="Modo oscuro" />
+                            </button>
+                            <span class="text-white me-3">@User.Identity?.Name</span>
+                            <a class="text-white me-3" asp-controller="Account" asp-action="Profile">Perfil</a>
+                            <form asp-controller="Account" asp-action="Logout" method="post">
+                                <button type="submit" class="btn btn-link nav-link text-white p-0">Cerrar sesión</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        @if (ctrl == "Home" && act == "Index")
+        {
+            <section class="hero d-flex align-items-center justify-content-center text-center mb-5"
+                     style="background-image: url('@Url.Content("~/images/hero.jpg")');
+                            background-size: cover;
+                            background-position: center;
+                            min-height: 60vh;
+                            position: relative;">
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+                <div class="container position-relative animate__animated animate__fadeInUp text-white">
+                    <h1 class="display-4 fw-bold">¡Bienvenidos a Antojería Tica!</h1>
+                    <p class="lead mb-4">Explora los auténticos sabores costarricenses</p>
+                    <a asp-controller="Menu" asp-action="Index" class="btn btn-lg btn-cr-red">Ver Menú</a>
+                </div>
+            </section>
+        }
+    }
+
+    <main id="main-content" class="container my-5">
+        @RenderBody()
+    </main>
+
+    @if (!isAuthPage)
+    {
+        <footer class="py-5 text-white mt-auto">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-md-4">
+                        <h5>Sobre Nosotros</h5>
+                        <p>Ofrecemos auténticos sabores costarricenses en cada bocado.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Horario</h5>
+                        <p>Lun – Dom: 8:00 AM – 8:00 PM</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Síguenos</h5>
+                        <a href="#" aria-label="Facebook" class="me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="#" aria-label="Instagram" class="me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="text-center mt-4">&copy; @DateTime.Now.Year Antojería Tica</div>
+            </div>
+        </footer>
+        <button id="backToTop" class="btn btn-cr-red rounded-circle p-2" aria-label="Volver arriba">
+            <img src="https://unpkg.com/heroicons@2.0.13/24/outline/chevron-up.svg" class="icon" alt="Volver arriba" />
+        </button>
+    }
+
+    <script>
+        window.addEventListener('load', () => document.getElementById('preloader').classList.add('d-none'));
+
+        const nav = document.getElementById('mainNav');
+        window.addEventListener('scroll', () => nav.classList.toggle('navbar-shrink', window.scrollY > 50));
+
+        const backBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => backBtn.style.display = window.scrollY > 300 ? 'block' : 'none');
+        backBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+        const themeBtn = document.getElementById('themeToggle');
+        themeBtn.addEventListener('click', () => {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+            themeBtn.innerHTML = isDark
+                ? '<img src="https://unpkg.com/heroicons@2.0.13/24/outline/moon.svg" class="icon" alt="Modo oscuro" />'
+                : '<img src="https://unpkg.com/heroicons@2.0.13/24/outline/sun.svg" class="icon" alt="Modo claro" />';
+            localStorage.setItem('theme', document.documentElement.getAttribute('data-theme'));
+        });
+        if (localStorage.getItem('theme') === 'dark') themeBtn.click();
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-…" crossorigin="anonymous"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+
+
+
+
+
+
+

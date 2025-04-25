@@ -1,0 +1,47 @@
+﻿@model ProyectoWeb.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100 px-3">
+    <div class="card shadow-lg animate__animated animate__fadeInUp w-100" style="max-width: 400px;">
+        <div class="card-header bg-cr-blue text-white text-center py-4">
+            <img src="~/images/logo.png" alt="Logo Antojería Tica" height="60" loading="lazy" class="mb-2" />
+            <h4 class="mb-0">Iniciar Sesión</h4>
+        </div>
+        <div class="card-body p-4">
+            <form asp-action="Login" method="post" novalidate>
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger d-none" id="validationSummary"></div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Username" class="form-control" id="Username" placeholder="Usuario" />
+                    <label for="Username"><i class="fas fa-user me-1"></i> Usuario</label>
+                    <span asp-validation-for="Username" class="text-danger small"></span>
+                </div>
+
+                <div class="form-floating mb-4">
+                    <input asp-for="Password" type="password" class="form-control" id="Password" placeholder="Contraseña" />
+                    <label for="Password"><i class="fas fa-lock me-1"></i> Contraseña</label>
+                    <span asp-validation-for="Password" class="text-danger small"></span>
+                </div>
+
+                <button type="submit" class="btn btn-cr-red w-100 py-2 mb-3">Ingresar</button>
+
+                <div class="text-center small">
+                    ¿No tienes cuenta?
+                    <a asp-action="Register" class="text-cr-red fw-semibold"> Regístrate aquí</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+
+

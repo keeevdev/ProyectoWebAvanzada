@@ -1,0 +1,11 @@
+﻿@model List<ProyectoWeb.Models.PendingOrderViewModel>
+<h1>Mis Pedidos</h1>
+<table class="table">
+    <thead><tr><th>ID</th><th>Mesa</th><th>Estado</th><th>Tiempo Est.</th></tr></thead>
+    <tbody>
+        @foreach (var o in Model)
+        {
+            <tr><td>@o.Id</td><td>@o.TableNumber</td><td>@o.Status</td><td>@(o.EstimatedTimeMinutes?.ToString() ?? "-")</td></tr>
+        }
+    </tbody>
+</table>

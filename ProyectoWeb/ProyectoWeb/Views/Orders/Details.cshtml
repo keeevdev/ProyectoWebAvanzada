@@ -1,0 +1,42 @@
+﻿@model ProyectoWeb.Models.OrderDetailsViewModel
+<h1>Pedido #@Model.OrderId</h1>
+<section>
+    <h3>Items</h3>
+    @if (!Model.Items.Any())
+    {
+        <div>No hay productos.</div>
+    }
+    else
+    {
+        <table class="table">
+            <thead><tr><th>Ítem</th><th>Precio</th><th>Cantidad</th></tr></thead>
+            <tbody>
+                @foreach (var it in Model.Items)
+                {
+                    <tr><td>@it.Name</td><td>@it.Price.ToString("C")</td><td>@it.Quantity</td></tr>
+                }
+            </tbody>
+        </table>
+    }
+</section>
+<section>
+    <h3>Asignar Tiempo</h3>
+    <form asp-action="AssignTime" method="post">
+        <input type="hidden" name="orderId" value="@Model.OrderId" />
+        <input asp-for="AssignTime.EstimatedTimeMinutes" />
+        <button type="submit" class="btn btn-primary">Asignar</button>
+    </form>
+    <form asp-action="Complete" method="post" class="mt-2">
+        <input type="hidden" name="orderId" value="@Model.OrderId" />
+        <button type="submit" class="btn btn-success">Completar</button>
+    </form>
+</section>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+
+

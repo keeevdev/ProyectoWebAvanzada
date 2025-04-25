@@ -1,0 +1,585 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\interfaces\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\interfaces\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\dtos\\createmenuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\dtos\\createmenuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\dtos\\menuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\dtos\\menuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\dtos\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\dtos\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\dtos\\assigntimedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\dtos\\assigntimedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\models\\orderitemdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\models\\orderitemdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\helpers\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\helpers\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\helpers\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\helpers\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|c:\\users\\keevd\\onedrive\\documents\\cuatrimestre-no.7\\programaci\u00F3n-avanzada\\proyecto\\proyectoapi\\proyectoapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C4C370-F0F9-41BD-88AB-EBEE67C95C9D}|ProyectoApi\\ProyectoApi.csproj|solutionrelative:proyectoapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 29,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Models\\MenuItem.cs",
+              "RelativeToolTip": "ProyectoApi\\Models\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:12:35.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Dtos\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\OrderItemDto.cs",
+              "RelativeToolTip": "ProyectoApi\\Dtos\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:11:47.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMenuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Interfaces\\IMenuRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Interfaces\\IMenuRepository.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Interfaces\\IMenuRepository.cs",
+              "RelativeToolTip": "ProyectoApi\\Interfaces\\IMenuRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:13:44.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Repositories\\MenuRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Repositories\\MenuRepository.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Repositories\\MenuRepository.cs",
+              "RelativeToolTip": "ProyectoApi\\Repositories\\MenuRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA3wEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:15:44.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "ProyectoApi\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwE4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:17:38.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateMenuItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\CreateMenuItemDto.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Dtos\\CreateMenuItemDto.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\CreateMenuItemDto.cs",
+              "RelativeToolTip": "ProyectoApi\\Dtos\\CreateMenuItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:11:36.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\MenuItemDto.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Dtos\\MenuItemDto.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\MenuItemDto.cs",
+              "RelativeToolTip": "ProyectoApi\\Dtos\\MenuItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:11:20.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "ProyectoApi\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:18:21.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\ProfileDto.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Dtos\\ProfileDto.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\ProfileDto.cs",
+              "RelativeToolTip": "ProyectoApi\\Dtos\\ProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:52:22.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "ProyectoApi\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:18:33.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Dtos\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\CreateOrderDto.cs",
+              "RelativeToolTip": "ProyectoApi\\Dtos\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:12:02.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "ProyectoApi\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:18:56.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Program.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Program.cs",
+              "RelativeToolTip": "ProyectoApi\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:20:19.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssignTimeDto.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\AssignTimeDto.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Dtos\\AssignTimeDto.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Dtos\\AssignTimeDto.cs",
+              "RelativeToolTip": "ProyectoApi\\Dtos\\AssignTimeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:12:13.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Models\\Order.cs",
+              "RelativeToolTip": "ProyectoApi\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:12:48.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderItemDetail.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Models\\OrderItemDetail.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Models\\OrderItemDetail.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Models\\OrderItemDetail.cs",
+              "RelativeToolTip": "ProyectoApi\\Models\\OrderItemDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:13:06.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "ProyectoApi\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:13:57.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "ProyectoApi\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA3wFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:16:01.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "ProyectoApi\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:17:59.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ProyectoApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\appsettings.json",
+              "RelativeToolTip": "ProyectoApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-25T05:27:35.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "ProyectoApi\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:19:27.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ProyectoApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:20:42.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Helpers\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Helpers\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Helpers\\JwtSettings.cs",
+              "RelativeToolTip": "ProyectoApi\\Helpers\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:20:11.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Services\\AuthService.cs",
+              "RelativeToolTip": "ProyectoApi\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:19:56.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ProyectoApi\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:19:09.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Helpers\\DapperContext.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Helpers\\DapperContext.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Helpers\\DapperContext.cs",
+              "RelativeToolTip": "ProyectoApi\\Helpers\\DapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:16:52.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ProyectoApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:57:41.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Models\\Role.cs",
+              "RelativeToolTip": "ProyectoApi\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:17:35.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProyectoApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programaci\u00F3n-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\Models\\User.cs",
+              "RelativeToolTip": "ProyectoApi\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:17:19.589Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
