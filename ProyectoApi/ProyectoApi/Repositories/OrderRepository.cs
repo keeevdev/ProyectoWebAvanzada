@@ -13,12 +13,13 @@ namespace ProyectoApi.Repositories
         private readonly DapperContext _ctx;
         public OrderRepository(DapperContext ctx) => _ctx = ctx;
 
-        public async Task<int> CreateOrderAsync(int userId, int tableNumber)
+        public async Task<int> CreateOrderAsync(int userId, int tableNumber, string paymentMethod)
         {
             using var conn = _ctx.CreateConnection();
             var p = new DynamicParameters();
             p.Add("UserId", userId);
             p.Add("TableNumber", tableNumber);
+            p.Add("PaymentMethod", paymentMethod);
             p.Add("OrderId", dbType: DbType.Int32, direction: ParameterDirection.Output);
             await conn.ExecuteAsync("sp_CreateOrder", p, commandType: CommandType.StoredProcedure);
             return p.Get<int>("OrderId");
