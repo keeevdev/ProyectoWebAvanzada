@@ -6,6 +6,17 @@
         <input asp-for="TableNumber" class="form-control" />
         <span asp-validation-for="TableNumber" class="text-danger"></span>
     </div>
+    <div class="form-group">
+        <label asp-for="PaymentMethod"></label>
+        <select asp-for="PaymentMethod" class="form-control">
+            <option value="">-- Seleccione --</option>
+            <option value="Efectivo">Efectivo</option>
+            <option value="Tarjeta">Tarjeta</option>
+            <option value="SINPE">SINPE</option>
+        </select>
+        <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+    </div>
+
     <h3>Items</h3>
     <table class="table">
         <thead><tr><th>Ítem</th><th>Precio</th><th>Cantidad</th></tr></thead>

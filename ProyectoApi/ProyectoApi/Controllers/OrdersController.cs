@@ -19,7 +19,7 @@ namespace ProyectoApi.Controllers
         public async Task<IActionResult> PlaceOrder(CreateOrderDto dto)
         {
             var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
-            var orderId = await _orderRepo.CreateOrderAsync(userId, dto.TableNumber);
+            var orderId = await _orderRepo.CreateOrderAsync(userId, dto.TableNumber, dto.PaymentMethod);
             foreach (var it in dto.Items)
                 await _orderRepo.AddOrderItemAsync(orderId, it.MenuItemId, it.Quantity);
             return CreatedAtAction(nameof(GetOrderItems), new { orderId });

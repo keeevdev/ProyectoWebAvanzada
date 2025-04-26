@@ -8,5 +8,6 @@
         public required string Status { get; set; }
         public DateTime CreatedAt { get; set; }
         public int? EstimatedTimeMinutes { get; set; }
+        public string PaymentMethod { get; set; }
     }
 }

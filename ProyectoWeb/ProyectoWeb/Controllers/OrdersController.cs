@@ -72,6 +72,7 @@ namespace ProyectoWeb.Controllers
 
             var dto = new CreateOrderDto(
                 vm.TableNumber,
+                vm.PaymentMethod,
                 vm.Items
                   .Where(i => i.Quantity > 0)
                   .Select(i => new OrderItemDto(i.MenuItemId, i.Quantity))
