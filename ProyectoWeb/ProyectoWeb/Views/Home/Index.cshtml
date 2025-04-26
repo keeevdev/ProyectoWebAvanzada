@@ -1,28 +1,177 @@
-﻿@model List<ProyectoWeb.Models.MenuItemViewModel>
-@{
+﻿@{
     ViewData["Title"] = "Inicio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h1 class="mb-4">Menú Disponible</h1>
 
-<div class="row row-cols-1 row-cols-md-3 g-4">
-    @foreach (var item in Model)
-    {
-        <div class="col">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title">@item.Name</h5>
-                    <p class="card-text text-muted">@item.Description</p>
+<style>
+    html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #main-content, .container-fluid, .row, section {
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .section-img {
+        width: 100% !important;
+        height: 300px !important;
+        object-fit: cover !important;
+        display: block;
+    }
+</style>
+
+<main id="main-content" class="mt-5 pt-4">
+    <section id="about" class="py-5 bg-white">
+        <div class="container-fluid">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-6">
+                    <div class="p-4">
+                        <h2 class="fw-bold text-cr-blue">Nuestra Historia</h2>
+                        <p>En Antojería Tica llevamos más de 10 años compartiendo la riqueza de nuestra tierra, usando ingredientes frescos y recetas tradicionales que han pasado de generación en generación.</p>
+                        <p>Visítanos y sé parte de esta experiencia culinaria única en el corazón de Costa Rica.</p>
+                        <a asp-controller="Home" asp-action="About" class="btn btn-outline-light btn-cr-red mt-3">Leer Más</a>
+                    </div>
                 </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <strong class="text-primary">@item.Price.ToString("C")</strong>
-                    @if (User.IsInRole("usuario"))
-                    {
-                        <a asp-controller="Orders" asp-action="Create" class="btn btn-sm btn-success">
-                            Pedir
-                        </a>
-                    }
+                <div class="col-md-6">
+                    <img src="~/images/about.png" alt="Sobre Nosotros" class="section-img">
                 </div>
             </div>
         </div>
-    }
-</div>
+    </section>
+
+    <section id="specialties" class="bg-light">
+        <div class="container-fluid">
+            <div class="text-center py-5">
+                <h2 class="fw-bold text-cr-blue">Especialidades de la Casa</h2>
+                <p class="text-muted">Platos emblemáticos que no puedes dejar de probar</p>
+            </div>
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="~/images/gallo_pinto.jpg" alt="Gallo Pinto" class="section-img">
+                    <div class="p-3 border-cr-red border-top text-center">
+                        <h5 class="fw-bold">Gallo Pinto</h5>
+                        <p>Arroz y frijoles, plátano maduro y natilla.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="~/images/casado.jpg" alt="Casado Tradicional" class="section-img">
+                    <div class="p-3 border-cr-red border-top text-center">
+                        <h5 class="fw-bold">Casado Tradicional</h5>
+                        <p>Carne o pescado, arroz, frijoles y ensalada.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="~/images/ojo_de_buey.jpg" alt="Ojo de Buey" class="section-img">
+                    <div class="p-3 border-cr-red border-top text-center">
+                        <h5 class="fw-bold">Ojo de Buey</h5>
+                        <p>Caldo de res con vegetales y especias costarricenses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu-preview" class="bg-white py-5">
+        <div class="container-fluid">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-cr-blue">Vista Rápida del Menú</h2>
+            </div>
+            <div class="row g-3">
+                @{
+                    var sampleItems = new[] {
+                new { Name = "Tamal Tico", Description = "Hecho con maíz tierno y cerdo.", Image = "~/images/tamal.jpg" },
+                new { Name = "Chifrijo", Description = "Frijoles, chicharrón y pico de gallo.", Image = "~/images/chifrijo.jpg" },
+                new { Name = "Hamburguesa Clásica", Description = "Carne, queso y salsa especial.", Image = "~/images/hamburguesa.jpg" },
+                new { Name = "Papas Fritas", Description = "Crujientes con kétchup.", Image = "~/images/papas_fritas.jpg" }
+                };
+                }
+                @foreach (var item in sampleItems)
+                {
+                    <div class="col-6 col-md-3">
+                        <div class="position-relative">
+                            <img src="@Url.Content(item.Image)" alt="@item.Name" class="section-img">
+                            <div class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-50 text-center text-white p-2">
+                                <h6 class="mb-1">@item.Name</h6>
+                                <small>@item.Description</small>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="text-center mt-4">
+                <a asp-controller="Menu" asp-action="Index" class="btn btn-cr-red">Ver Todo el Menú</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="bg-light">
+        <div class="container-fluid">
+            <div class="text-center py-5">
+                <h2 class="fw-bold text-cr-blue">Lo Que Dicen Nuestros Clientes</h2>
+            </div>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <p class="fs-5">"Excelente servicio y sabores auténticos. ¡Volveré pronto!"</p>
+                        <small>- Sebastian G.</small>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p class="fs-5">"Los mejores casados que he probado en San José."</p>
+                        <small>- Rafael P.</small>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p class="fs-5">"Ambiente acogedor y precios accesibles."</p>
+                        <small>- Kevin L.</small>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="bg-white">
+        <div class="container-fluid">
+            <div class="text-center py-5">
+                <h2 class="fw-bold text-cr-blue">Galería</h2>
+            </div>
+            <div class="row g-3">
+                @for (int i = 1; i <= 6; i++)
+                {
+                    var imgPath = Url.Content($"~/images/gallery/img{i}.jpg");
+                    <div class="col-6 col-md-4">
+                        <img src="@imgPath" alt="Galería @i" class="section-img" loading="lazy" />
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="position-relative text-white" style="height: 100vh;">
+        <div style="position:absolute; top:0; left:0; right:0; bottom:0;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.1234567890123!2d-84.204655!3d10.016650!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e7bedd9f8f5d%3A0xaddf4a7f8a9ebc5c!2sAlajuela%2C%20Costa%20Rica!5e0!3m2!1ses-419!2sus!4v1618888888888"
+                    style="width:100%; height:100%; border:0; filter: brightness(60%);" allowfullscreen loading="lazy">
+            </iframe>
+        </div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+            <h2 class="fw-bold text-cr-white">Ubicación & Horarios</h2>
+            <p class="mb-1">Avenida Central, Alajuela, Costa Rica</p>
+            <p class="mb-3"><strong>Horario:</strong> Lun – Dom: 8:00 AM – 8:00 PM</p>
+            <a href="https://goo.gl/maps/XYZ" class="btn btn-cr-red">Ver en Google Maps</a>
+        </div>
+    </section>
+</main>
+
+
+
+
+

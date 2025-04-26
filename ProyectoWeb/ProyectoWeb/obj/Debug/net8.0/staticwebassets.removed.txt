@@ -1,0 +1,6 @@
+C:\Users\keevd\OneDrive\Documents\ProyectoWeb\ProyectoWebAvanzada\ProyectoWeb\ProyectoWeb\wwwroot\gallery\img1.jpg
+C:\Users\keevd\OneDrive\Documents\ProyectoWeb\ProyectoWebAvanzada\ProyectoWeb\ProyectoWeb\wwwroot\gallery\img2.jpg
+C:\Users\keevd\OneDrive\Documents\ProyectoWeb\ProyectoWebAvanzada\ProyectoWeb\ProyectoWeb\wwwroot\gallery\img3.jpg
+C:\Users\keevd\OneDrive\Documents\ProyectoWeb\ProyectoWebAvanzada\ProyectoWeb\ProyectoWeb\wwwroot\gallery\img4.jpg
+C:\Users\keevd\OneDrive\Documents\ProyectoWeb\ProyectoWebAvanzada\ProyectoWeb\ProyectoWeb\wwwroot\gallery\img5.jpg
+C:\Users\keevd\OneDrive\Documents\ProyectoWeb\ProyectoWebAvanzada\ProyectoWeb\ProyectoWeb\wwwroot\gallery\img6.jpg

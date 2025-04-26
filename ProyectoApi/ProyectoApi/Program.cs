@@ -9,10 +9,8 @@ using ProyectoApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Dapper
 builder.Services.AddSingleton<DapperContext>();
 
-// Repos & Services
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IMenuRepository, MenuRepository>();
@@ -20,11 +18,9 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 
-// JWT Settings
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
 var jwt = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>()!;
 
-// Authentication: JWT & Cookie
 builder.Services
   .AddAuthentication(options => {
       options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

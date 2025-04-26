@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\images\\98d66229-7464-44fc-bed1-deff116080a0.jpg"
     },
     {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\about.png",
+      "PackagePath": "staticwebassets\\images\\about.png"
+    },
+    {
       "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\b13e1995-845d-406d-90ea-8d50fe48b222.jpg",
       "PackagePath": "staticwebassets\\images\\b13e1995-845d-406d-90ea-8d50fe48b222.jpg"
     },
@@ -89,12 +93,64 @@
       "PackagePath": "staticwebassets\\images\\c4c47af0-3b3a-4ceb-8d80-c369bbc18144.jpg"
     },
     {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\casado.jpg",
+      "PackagePath": "staticwebassets\\images\\casado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\chifrijo.jpg",
+      "PackagePath": "staticwebassets\\images\\chifrijo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\gallery\\img1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\gallery\\img2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\gallery\\img3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\gallery\\img4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\gallery\\img5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\gallery\\img6.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\gallo_pinto.jpg",
+      "PackagePath": "staticwebassets\\images\\gallo_pinto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\hamburguesa.jpg",
+      "PackagePath": "staticwebassets\\images\\hamburguesa.jpg"
+    },
+    {
       "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\hero.jpg",
       "PackagePath": "staticwebassets\\images\\hero.jpg"
     },
     {
       "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\ojo_de_buey.jpg",
+      "PackagePath": "staticwebassets\\images\\ojo_de_buey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\papas_fritas.jpg",
+      "PackagePath": "staticwebassets\\images\\papas_fritas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\tamal.jpg",
+      "PackagePath": "staticwebassets\\images\\tamal.jpg"
     },
     {
       "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\js\\site.js",

@@ -304,3 +304,131 @@ GO
 
 DELETE FROM MenuItems;
 
+
+
+
+-- 1. Crear tabla de categorías
+CREATE TABLE Categories (
+    Id INT IDENTITY PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL
+);
+GO
+
+-- 2. Agregar FK en MenuItems
+ALTER TABLE MenuItems ADD CategoryId INT NULL;
+ALTER TABLE MenuItems
+  ADD CONSTRAINT FK_MenuItems_Categories FOREIGN KEY(CategoryId)
+    REFERENCES Categories(Id);
+GO
+
+-- 3. Obtener todas las categorías
+CREATE PROCEDURE sp_GetCategories
+AS
+BEGIN
+    SELECT Id, Name
+    FROM Categories
+    ORDER BY Name;
+END
+GO
+
+-- 4. Modificar sp_GetMenuItems para incluir categoría
+ALTER PROCEDURE sp_GetMenuItems
+AS
+BEGIN
+    SELECT
+      mi.Id, mi.Name, mi.Description, mi.Price, mi.CreatedAt, mi.ImageUrl,
+      mi.CategoryId, c.Name AS CategoryName
+    FROM MenuItems mi
+    LEFT JOIN Categories c ON mi.CategoryId = c.Id;
+END
+GO
+
+-- 5. Modificar sp_GetMenuItemById para incluir categoría
+ALTER PROCEDURE sp_GetMenuItemById
+    @Id INT
+AS
+BEGIN
+    SELECT
+      mi.Id, mi.Name, mi.Description, mi.Price, mi.CreatedAt, mi.ImageUrl,
+      mi.CategoryId, c.Name AS CategoryName
+    FROM MenuItems mi
+    LEFT JOIN Categories c ON mi.CategoryId = c.Id
+    WHERE mi.Id = @Id;
+END
+GO
+
+-- 6. Ajustar sp_AddMenuItem y sp_UpdateMenuItem para recibir CategoryId
+ALTER PROCEDURE sp_AddMenuItem
+    @Name NVARCHAR(100),
+    @Description NVARCHAR(255),
+    @Price DECIMAL(10,2),
+    @ImageUrl NVARCHAR(255),
+    @CategoryId INT
+AS
+BEGIN
+    INSERT INTO MenuItems(Name,Description,Price,ImageUrl,CategoryId)
+    VALUES(@Name,@Description,@Price,@ImageUrl,@CategoryId);
+END
+GO
+
+ALTER PROCEDURE sp_UpdateMenuItem
+    @Id INT,
+    @Name NVARCHAR(100),
+    @Description NVARCHAR(255),
+    @Price DECIMAL(10,2),
+    @ImageUrl NVARCHAR(255),
+    @CategoryId INT
+AS
+BEGIN
+    UPDATE MenuItems
+    SET Name=@Name,
+        Description=@Description,
+        Price=@Price,
+        ImageUrl=@ImageUrl,
+        CategoryId=@CategoryId
+    WHERE Id=@Id;
+END
+GO
+
+
+INSERT INTO Categories (Name)
+VALUES 
+('Gallo Pinto'),
+('Casado'),
+('Olla de Carne'),
+('Tamales'),
+('Chifrijo');
+GO
+
+
+
+-- SP: Añadir Categoría
+CREATE PROCEDURE sp_AddCategory
+    @Name NVARCHAR(100)
+AS
+BEGIN
+    INSERT INTO Categories(Name)
+    VALUES(@Name);
+END
+GO
+
+-- SP: Actualizar Categoría
+CREATE PROCEDURE sp_UpdateCategory
+    @Id INT,
+    @Name NVARCHAR(100)
+AS
+BEGIN
+    UPDATE Categories
+    SET Name = @Name
+    WHERE Id = @Id;
+END
+GO
+
+-- SP: Borrar Categoría
+CREATE PROCEDURE sp_DeleteCategory
+    @Id INT
+AS
+BEGIN
+    DELETE FROM Categories WHERE Id = @Id;
+END
+GO

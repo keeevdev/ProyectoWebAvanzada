@@ -3,52 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\views\\menu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\menu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\models\\createmenuitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\models\\createmenuitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\models\\menuindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\models\\menuindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\models\\menuitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\models\\menuitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\dtos\\createmenuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\dtos\\createmenuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\keevd\\onedrive\\documents\\proyectoweb\\proyectowebavanzada\\proyectoweb\\proyectoweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3054BE-5BC2-4731-99D5-050FE4DF7BC2}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 27,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,158 +126,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Menu\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Menu\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Menu\\Edit.cshtml",
-              "RelativeToolTip": "ProyectoWeb\\Views\\Menu\\Edit.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T05:15:18.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Menu\\Create.cshtml",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Menu\\Create.cshtml",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Menu\\Create.cshtml",
-              "RelativeToolTip": "ProyectoWeb\\Views\\Menu\\Create.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T05:15:00.705Z",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProyectoWeb\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAYwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:40:29.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Menu\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Menu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Menu\\Index.cshtml",
-              "RelativeToolTip": "ProyectoWeb\\Views\\Menu\\Index.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T05:14:29.357Z",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ProyectoWeb\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwE0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:39:52.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "ProyectoWeb\\Controllers\\MenuController.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAkwLQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:13:12.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateMenuItemViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Models\\CreateMenuItemViewModel.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Models\\CreateMenuItemViewModel.cs",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Models\\CreateMenuItemViewModel.cs",
-              "RelativeToolTip": "ProyectoWeb\\Models\\CreateMenuItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:12:46.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MenuIndexViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Models\\MenuIndexViewModel.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Models\\MenuIndexViewModel.cs",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Models\\MenuIndexViewModel.cs",
-              "RelativeToolTip": "ProyectoWeb\\Models\\MenuIndexViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:12:35.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Models\\CategoryViewModel.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Models\\CategoryViewModel.cs",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Models\\CategoryViewModel.cs",
-              "RelativeToolTip": "ProyectoWeb\\Models\\CategoryViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:11:59.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MenuItemViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Models\\MenuItemViewModel.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Models\\MenuItemViewModel.cs",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Models\\MenuItemViewModel.cs",
-              "RelativeToolTip": "ProyectoWeb\\Models\\MenuItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:01:55.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Menu\\Details.cshtml",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Menu\\Details.cshtml",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Menu\\Details.cshtml",
-              "RelativeToolTip": "ProyectoWeb\\Views\\Menu\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T05:22:49.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateMenuItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Dtos\\CreateMenuItemDto.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Dtos\\CreateMenuItemDto.cs",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Dtos\\CreateMenuItemDto.cs",
-              "RelativeToolTip": "ProyectoWeb\\Dtos\\CreateMenuItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:06:21.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "ProyectoWeb\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:24:14.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAuwAIBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T05:31:21.94Z",
+              "WhenOpened": "2025-04-26T08:38:16.798Z",
               "EditorCaption": ""
             }
           ]

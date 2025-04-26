@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using System.Security.Claims;
 using System.Text.Json;
+using System.Net;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using Microsoft.AspNetCore.Http;
@@ -22,16 +23,26 @@ namespace ProyectoWeb.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel vm)
         {
-            if (!ModelState.IsValid) return View(vm);
+            if (!ModelState.IsValid)
+                return View(vm);
 
             var client = _http.CreateClient("ApiClient");
             var res = await client.PostAsJsonAsync("api/auth/register", vm);
 
-            if (res.IsSuccessStatusCode)
-                return RedirectToAction("Login");
+            if (res.StatusCode == HttpStatusCode.Conflict)
+            {
+                ModelState.AddModelError(nameof(vm.Username),
+                                         "El nombre de usuario ya está registrado.");
+                return View(vm);
+            }
 
-            ModelState.AddModelError("", "No se pudo registrar.");
-            return View(vm);
+            if (!res.IsSuccessStatusCode)
+            {
+                ModelState.AddModelError(string.Empty, "No se pudo registrar, ya existe un usuario con ese username o correo");
+                return View(vm);
+            }
+
+            return RedirectToAction("Login");
         }
 
         [HttpGet]
@@ -40,14 +51,15 @@ namespace ProyectoWeb.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel vm)
         {
-            if (!ModelState.IsValid) return View(vm);
+            if (!ModelState.IsValid)
+                return View(vm);
 
             var client = _http.CreateClient("ApiClient");
             var res = await client.PostAsJsonAsync("api/auth/login", vm);
 
             if (!res.IsSuccessStatusCode)
             {
-                ModelState.AddModelError("", "Usuario o contraseña inválidos.");
+                ModelState.AddModelError(string.Empty, "Usuario o contraseña inválidos.");
                 return View(vm);
             }
 
@@ -71,7 +83,6 @@ namespace ProyectoWeb.Controllers
         [HttpPost]
         public async Task<IActionResult> Logout()
         {
-            // Limpia la sesión y la cookie
             HttpContext.Session.Remove("JWToken");
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login");
@@ -99,7 +110,8 @@ namespace ProyectoWeb.Controllers
         [HttpPost]
         public async Task<IActionResult> Profile(ProfileViewModel vm)
         {
-            if (!ModelState.IsValid) return View(vm);
+            if (!ModelState.IsValid)
+                return View(vm);
 
             var token = HttpContext.Session.GetString("JWToken");
             if (string.IsNullOrEmpty(token))
@@ -112,7 +124,7 @@ namespace ProyectoWeb.Controllers
             var res = await client.PutAsJsonAsync("api/auth/profile", vm);
             if (!res.IsSuccessStatusCode)
             {
-                ModelState.AddModelError("", "No se pudo actualizar el perfil.");
+                ModelState.AddModelError(string.Empty, "No se pudo actualizar el perfil.");
                 return View(vm);
             }
 
@@ -136,6 +148,7 @@ namespace ProyectoWeb.Controllers
         }
     }
 }
+
 
 
 

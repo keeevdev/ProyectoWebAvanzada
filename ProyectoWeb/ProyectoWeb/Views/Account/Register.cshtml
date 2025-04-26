@@ -1,41 +1,79 @@
 ﻿@model ProyectoWeb.Models.RegisterViewModel
+@using Microsoft.AspNetCore.Mvc.ModelBinding
+
 @{
     ViewData["Title"] = "Registro";
+
+    ModelStateEntry entry;
+    var usernameErrors = ViewData.ModelState.TryGetValue(nameof(Model.Username), out entry)
+        ? entry.Errors
+        : null;
 }
 
 <div class="container d-flex justify-content-center align-items-center min-vh-100 px-3">
     <div class="card shadow-lg animate__animated animate__fadeInUp w-100" style="max-width: 400px;">
         <div class="card-header bg-cr-blue text-white text-center py-4">
-            <img src="~/images/logo.png" alt="Logo Antojería Tica" height="60" loading="lazy" class="mb-2" />
+            <img src="~/images/logo.png" alt="Logo Antojería Tica"
+                 height="60" loading="lazy" class="mb-2" />
             <h4 class="mb-0">Registro de Usuario</h4>
         </div>
         <div class="card-body p-4">
+
+            @* — Alerta flotante para usuario duplicado *@
+            @if (usernameErrors != null && usernameErrors.Count > 0)
+            {
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    @foreach (var error in usernameErrors)
+                    {
+                        <div>@error.ErrorMessage</div>
+                    }
+                    <button type="button" class="btn-close"
+                            data-bs-dismiss="alert" aria-label="Cerrar"></button>
+                </div>
+            }
+
             <form asp-action="Register" method="post" novalidate>
-                <div asp-validation-summary="ModelOnly" class="alert alert-danger d-none mb-3" id="validationSummary"></div>
+                @* — Resumen de errores generales *@
+                <div asp-validation-summary="ModelOnly"
+                     class="alert alert-danger mb-3" role="alert">
+                </div>
 
                 <div class="form-floating mb-3">
-                    <input asp-for="Username" class="form-control" id="Username" placeholder="Usuario" />
-                    <label for="Username"><i class="fas fa-user me-1"></i> Usuario</label>
+                    <input asp-for="Username" class="form-control" placeholder="Usuario" />
+                    <label asp-for="Username">
+                        <i class="fas fa-user me-1"></i> Usuario
+                    </label>
                     <span asp-validation-for="Username" class="text-danger small"></span>
                 </div>
 
                 <div class="form-floating mb-3">
-                    <input asp-for="Email" type="email" class="form-control" id="Email" placeholder="Correo electrónico" />
-                    <label for="Email"><i class="fas fa-envelope me-1"></i> Correo electrónico</label>
+                    <input asp-for="Email" type="email" class="form-control"
+                           placeholder="Correo electrónico" />
+                    <label asp-for="Email">
+                        <i class="fas fa-envelope me-1"></i> Correo electrónico
+                    </label>
                     <span asp-validation-for="Email" class="text-danger small"></span>
                 </div>
 
                 <div class="form-floating mb-4">
-                    <input asp-for="Password" type="password" class="form-control" id="Password" placeholder="Contraseña" />
-                    <label for="Password"><i class="fas fa-lock me-1"></i> Contraseña</label>
+                    <input asp-for="Password" type="password"
+                           class="form-control" placeholder="Contraseña" />
+                    <label asp-for="Password">
+                        <i class="fas fa-lock me-1"></i> Contraseña
+                    </label>
                     <span asp-validation-for="Password" class="text-danger small"></span>
                 </div>
 
-                <button type="submit" class="btn btn-cr-red w-100 py-2 mb-3">Registrar</button>
+                <button type="submit"
+                        class="btn btn-cr-red w-100 py-2 mb-3">
+                    Registrar
+                </button>
 
                 <div class="text-center small">
                     ¿Ya tienes cuenta?
-                    <a asp-action="Login" class="text-cr-red fw-semibold">Inicia sesión aquí</a>
+                    <a asp-action="Login" class="text-cr-red fw-semibold">
+                        Inicia sesión aquí
+                    </a>
                 </div>
             </form>
         </div>
@@ -47,4 +85,9 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+
+
+
+
+
 

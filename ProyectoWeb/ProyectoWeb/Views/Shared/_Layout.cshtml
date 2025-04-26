@@ -147,6 +147,7 @@
                             @if (User.IsInRole("admin"))
                             {
                                 <li class="nav-item"><a class="nav-link" asp-controller="Menu" asp-action="Create">Nuevo Ítem</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-controller="Category" asp-action="Index">Categorías</a></li>
                                 <li class="nav-item"><a class="nav-link" asp-controller="Users" asp-action="Index">Usuarios</a></li>
                             }
                             @if (User.IsInRole("usuario"))
