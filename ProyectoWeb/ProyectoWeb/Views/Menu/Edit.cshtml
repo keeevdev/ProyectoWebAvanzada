@@ -1,4 +1,5 @@
 ﻿@model ProyectoWeb.Models.CreateMenuItemViewModel
+@using Microsoft.AspNetCore.Mvc.Rendering
 
 @{
     ViewData["Title"] = "Editar Ítem de Menú";
@@ -10,6 +11,7 @@
       asp-route-id="@(ViewContext.RouteData.Values["id"]!)"
       method="post"
       enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
 
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
@@ -30,22 +32,29 @@
     </div>
 
     <div class="mb-3">
+        <label asp-for="CategoryId" class="form-label"></label>
+        <select asp-for="CategoryId"
+                class="form-select"
+                asp-items="@(new SelectList(ViewBag.Categories as List<ProyectoWeb.Models.CategoryViewModel> ?? new(), "Id", "Name", Model.CategoryId))">
+            <option value="">-- Selecciona categoría --</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
         <label asp-for="ImageFile" class="form-label">Cambiar Imagen</label>
         <input asp-for="ImageFile" type="file" class="form-control" />
         <span asp-validation-for="ImageFile" class="text-danger"></span>
     </div>
 
-    @* Si ya existe una imagen, la mostramos *@
     @if (!string.IsNullOrEmpty(Model.ImageUrl))
     {
         <div class="mb-3">
             <label class="form-label">Imagen Actual</label>
-            <div>
-                <img src="@Model.ImageUrl"
-                     alt="Imagen actual"
-                     class="img-thumbnail"
-                     style="max-height:200px;" />
-            </div>
+            <img src="@Model.ImageUrl"
+                 alt="Imagen actual"
+                 class="img-thumbnail"
+                 style="max-height:200px;" />
         </div>
     }
 
@@ -58,4 +67,6 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+
+
 

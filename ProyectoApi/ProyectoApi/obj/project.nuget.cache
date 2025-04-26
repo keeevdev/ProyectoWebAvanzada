@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KosuWPd+msg=",
+  "dgSpecHash": "1sbxY+stLAc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoApi\\ProyectoApi\\ProyectoApi.csproj",
+  "projectFilePath": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoApi\\ProyectoApi\\ProyectoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\keevd\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\keevd\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

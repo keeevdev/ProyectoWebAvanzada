@@ -5,6 +5,8 @@
         string Name,
         string? Description,
         decimal Price,
-        string? ImageUrl  // reflejar el nuevo campo
+        string? ImageUrl,
+        int? CategoryId,
+        string? CategoryName
     );
 }

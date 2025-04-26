@@ -1,57 +1,62 @@
-﻿@model List<ProyectoWeb.Models.MenuItemViewModel>
+﻿@model ProyectoWeb.Models.MenuIndexViewModel
+@using Microsoft.AspNetCore.Mvc.Rendering
+
 @{
     ViewData["Title"] = "Menú";
 }
 
-<h1 class="mb-4 text-center animate__animated animate__fadeInDown">Menú</h1>
+<h1 class="mb-4 text-center animate__animated animate__fadeInDown">@ViewData["Title"]</h1>
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-    @for (int i = 0; i < Model.Count; i++)
+<form method="get" asp-action="Index" class="mb-4 d-flex justify-content-center">
+    <select asp-for="SelectedCategoryId"
+            class="form-select w-auto me-2"
+            asp-items="@(new SelectList(Model.Categories, "Id", "Name", Model.SelectedCategoryId))">
+        <option value="">Todas las categorías</option>
+    </select>
+    <button type="submit" class="btn btn-primary">Filtrar</button>
+    @if (User.IsInRole("admin"))
     {
-        var item = Model[i];
-        <div class="col">
-            <div class="card h-100 shadow-sm animate__animated animate__zoomIn"
-                 style="animation-delay:@($"{i * 100}ms")">
-                <div class="overflow-hidden" style="height:180px;">
-                    <img src="@(item.ImageUrl ?? "/images/placeholder.png")"
-                         alt="@item.Name"
-                         class="w-100 h-100"
-                         style="object-fit:cover;"
-                         loading="lazy" />
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">@item.Name</h5>
-                    <p class="card-text text-muted text-truncate">@item.Description</p>
-                    <div class="mt-auto d-flex justify-content-between align-items-center">
-                        <span class="badge btn-cr-red fw-bold py-2">
-                            @item.Price.ToString("C")
-                        </span>
-                        <div class="d-flex align-items-center">
+        <a asp-action="Create" class="btn btn-success ms-3">Nuevo Ítem</a>
+    }
+</form>
+
+@if (!Model.Items.Any())
+{
+    <div class="alert alert-info text-center">
+        No hay productos en esta categoría.
+    </div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        @for (int i = 0; i < Model.Items.Count; i++)
+        {
+            var item = Model.Items[i];
+            <div class="col">
+                <div class="card h-100 shadow-sm animate__animated animate__zoomIn"
+                     style=@($"animation-delay:{i * 100}ms")>
+                    <div class="overflow-hidden" style="height:180px;">
+                        <img src="@Url.Content(item.ImageUrl ?? "~/images/placeholder.png")"
+                             alt="@item.Name"
+                             class="w-100 h-100"
+                             style="object-fit:cover;"
+                             loading="lazy" />
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="mb-1 text-muted">@item.CategoryName</p>
+                        <p class="card-text text-truncate">@item.Description</p>
+                        <div class="mt-auto d-flex justify-content-between align-items-center">
+                            <span class="fw-bold">@item.Price.ToString("C")</span>
                             <a asp-action="Details" asp-route-id="@item.Id"
-                               class="btn btn-sm btn-outline-primary me-2">Detalles</a>
-                            @if (User.IsInRole("admin"))
-                            {
-                                <a asp-action="Edit" asp-route-id="@item.Id"
-                                   class="btn btn-sm btn-outline-secondary me-1">Editar</a>
-                                <form asp-action="Delete" asp-route-id="@item.Id"
-                                      method="post" class="d-inline">
-                                    <button type="submit"
-                                            class="btn btn-sm btn-outline-danger">
-                                        Eliminar
-                                    </button>
-                                </form>
-                            }
-                            else if (User.IsInRole("usuario"))
-                            {
-                                <button class="btn btn-sm btn-cr-red">Añadir</button>
-                            }
+                               class="btn btn-sm btn-outline-primary">Detalles</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    }
-</div>
+        }
+    </div>
+}
 
 @section Scripts {
     <script>
@@ -59,6 +64,12 @@
              .forEach(el => new bootstrap.Tooltip(el));
     </script>
 }
+
+
+
+
+
+
 
 
 

@@ -1,34 +1,59 @@
 ﻿@model ProyectoWeb.Models.CreateMenuItemViewModel
+@using Microsoft.AspNetCore.Mvc.Rendering
+
 @{
-    ViewData["Title"] = "Crear Ítem";
+    ViewData["Title"] = "Crear Ítem de Menú";
 }
-<h1>@ViewData["Title"]</h1>
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
 
 <form asp-action="Create" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
         <input asp-for="Name" class="form-control" />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
         <label asp-for="Description" class="form-label"></label>
         <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
         <label asp-for="Price" class="form-label"></label>
         <input asp-for="Price" class="form-control" />
         <span asp-validation-for="Price" class="text-danger"></span>
     </div>
+
+    <div class="mb-3">
+        <label asp-for="CategoryId" class="form-label"></label>
+        <select asp-for="CategoryId"
+                class="form-select"
+                asp-items="@(new SelectList(ViewBag.Categories as List<ProyectoWeb.Models.CategoryViewModel> ?? new(), "Id", "Name", Model.CategoryId))">
+            <option value="">-- Selecciona categoría --</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
     <div class="mb-3">
         <label asp-for="ImageFile" class="form-label"></label>
         <input asp-for="ImageFile" type="file" class="form-control" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
     </div>
+
     @if (!string.IsNullOrEmpty(Model.ImageUrl))
     {
         <div class="mb-3">
-            <img src="@Model.ImageUrl" class="img-thumbnail" style="max-height:200px;" />
+            <img src="@Model.ImageUrl"
+                 alt="Imagen actual"
+                 class="img-thumbnail"
+                 style="max-height:200px;" />
         </div>
     }
+
     <button type="submit" class="btn btn-primary">Guardar</button>
     <a asp-action="Index" class="btn btn-secondary ms-2">Cancelar</a>
 </form>
@@ -38,6 +63,8 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+
+
 
 
 

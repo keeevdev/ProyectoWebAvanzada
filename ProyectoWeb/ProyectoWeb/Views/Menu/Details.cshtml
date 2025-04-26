@@ -4,6 +4,8 @@
     ViewData["Title"] = Model.Name;
 }
 
+<h1 class="mb-4">@Model.Name</h1>
+
 <div class="card mb-4 shadow-sm">
     <div class="overflow-hidden" style="height:300px;">
         <img src="@(Model.ImageUrl ?? "/images/placeholder.png")"
@@ -12,25 +14,24 @@
              style="object-fit:cover;" />
     </div>
     <div class="card-body">
-        <h2 class="card-title">@Model.Name</h2>
+        @if (!string.IsNullOrEmpty(Model.CategoryName))
+        {
+            <p class="mb-2"><strong>Categoría:</strong> @Model.CategoryName</p>
+        }
         <p class="text-muted mb-2">@Model.CreatedAt.ToString("g")</p>
-        <h4 class="text-primary">@Model.Price.ToString("C")</h4>
+        <h4 class="text-primary mb-3">@Model.Price.ToString("C")</h4>
         <p class="card-text">@Model.Description</p>
-        <div class="mt-4">
-            <a asp-action="Index" class="btn btn-secondary">Volver al Menú</a>
-            @if (User.IsInRole("admin"))
-            {
-                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-secondary ms-2">Editar</a>
-                <form asp-action="Delete" asp-route-id="@Model.Id" method="post" class="d-inline ms-2">
-                    <button type="submit" class="btn btn-outline-danger">Eliminar</button>
-                </form>
-            }
-            else if (User.IsInRole("usuario"))
-            {
-                <button class="btn btn-cr-red ms-2">Añadir al pedido</button>
-            }
-        </div>
+        <a asp-action="Index" class="btn btn-secondary">Volver al Menú</a>
+        @if (User.IsInRole("admin"))
+        {
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-secondary ms-2">Editar</a>
+            <form asp-action="Delete" asp-route-id="@Model.Id" method="post" class="d-inline ms-2">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn-outline-danger">Eliminar</button>
+            </form>
+        }
     </div>
 </div>
+
 
 

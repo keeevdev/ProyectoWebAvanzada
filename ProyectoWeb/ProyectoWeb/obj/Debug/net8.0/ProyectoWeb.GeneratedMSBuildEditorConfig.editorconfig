@@ -9,89 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoWeb
 build_property.RootNamespace = ProyectoWeb
-build_property.ProjectDir = C:\Users\keevd\OneDrive\Documents\Cuatrimestre-No.7\Programación-Avanzada\Proyecto\ProyectoWeb\ProyectoWeb\
+build_property.ProjectDir = C:\Users\keevd\OneDrive\Documents\ProyectoWeb\ProyectoWebAvanzada\ProyectoWeb\ProyectoWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\keevd\OneDrive\Documents\Cuatrimestre-No.7\Programación-Avanzada\Proyecto\ProyectoWeb\ProyectoWeb
+build_property.MSBuildProjectDirectory = C:\Users\keevd\OneDrive\Documents\ProyectoWeb\ProyectoWebAvanzada\ProyectoWeb\ProyectoWeb
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Account/Login.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Account/Profile.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Account/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Account/Register.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Home/Index.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Home/Privacy.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Menu/Create.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Menu/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Menu/Details.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Menu/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Menu/Edit.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Menu/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Menu/Index.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Orders/Create.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Orders/Details.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Orders/MyOrders.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Orders/MyOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXE15T3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Orders/Pending.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Orders/Pending.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFBlbmRpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Orders/Success.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Orders/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Shared/Error.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/_ViewImports.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/_ViewStart.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keevd/OneDrive/Documents/Cuatrimestre-No.7/Programación-Avanzada/Proyecto/ProyectoWeb/ProyectoWeb/Views/Shared/_Layout.cshtml]
+[C:/Users/keevd/OneDrive/Documents/ProyectoWeb/ProyectoWebAvanzada/ProyectoWeb/ProyectoWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wbci3pxnl6

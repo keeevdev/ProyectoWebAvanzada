@@ -4,6 +4,7 @@
         string Name,
         string? Description,
         decimal Price,
-        string? ImageUrl   // nuevo
+        string? ImageUrl,
+        int? CategoryId
     );
 }

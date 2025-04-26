@@ -1,263 +1,331 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProyectoWeb.bundle.scp.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProyectoWeb.bundle.scp.css",
       "PackagePath": "staticwebassets\\ProyectoWeb.3ucbxlz8b1.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\68a1b6ff-9b91-4fae-83b1-c41698da1149.jpg",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\0d74314e-c506-4208-a2e2-b3e40e68325e.jpg",
+      "PackagePath": "staticwebassets\\images\\0d74314e-c506-4208-a2e2-b3e40e68325e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\258bd7f8-1efd-42a6-bb5d-bfe8ce052aee.jpg",
+      "PackagePath": "staticwebassets\\images\\258bd7f8-1efd-42a6-bb5d-bfe8ce052aee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\291bb913-6aa0-481f-b964-cc739ec62ee0.jpg",
+      "PackagePath": "staticwebassets\\images\\291bb913-6aa0-481f-b964-cc739ec62ee0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\2986d73d-e50d-4d5a-9d91-333d7559dd0b.jpg",
+      "PackagePath": "staticwebassets\\images\\2986d73d-e50d-4d5a-9d91-333d7559dd0b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\2a38a16e-f991-4759-b0f4-f1feb9d7962a.jpg",
+      "PackagePath": "staticwebassets\\images\\2a38a16e-f991-4759-b0f4-f1feb9d7962a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\31c7e609-4184-4059-a8e2-b5a8f6aead34.jpg",
+      "PackagePath": "staticwebassets\\images\\31c7e609-4184-4059-a8e2-b5a8f6aead34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\336c37ea-dc50-481c-804d-582a84d9845a.jpg",
+      "PackagePath": "staticwebassets\\images\\336c37ea-dc50-481c-804d-582a84d9845a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\559f51f7-3961-4266-8ed8-1cea7eecb2df.jpg",
+      "PackagePath": "staticwebassets\\images\\559f51f7-3961-4266-8ed8-1cea7eecb2df.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\607e8332-a706-493c-874a-e62ab13bcdfd.jpg",
+      "PackagePath": "staticwebassets\\images\\607e8332-a706-493c-874a-e62ab13bcdfd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\68a1b6ff-9b91-4fae-83b1-c41698da1149.jpg",
       "PackagePath": "staticwebassets\\images\\68a1b6ff-9b91-4fae-83b1-c41698da1149.jpg"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\7dc62c53-3baa-4909-93c8-a893b0e42e69.jpg",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\6d026c92-be9b-4759-a441-bd2a0060ec71.jpg",
+      "PackagePath": "staticwebassets\\images\\6d026c92-be9b-4759-a441-bd2a0060ec71.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\77c0b265-c9fc-48c0-a2c8-0371aff76018.jpg",
+      "PackagePath": "staticwebassets\\images\\77c0b265-c9fc-48c0-a2c8-0371aff76018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\7dc62c53-3baa-4909-93c8-a893b0e42e69.jpg",
       "PackagePath": "staticwebassets\\images\\7dc62c53-3baa-4909-93c8-a893b0e42e69.jpg"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\hero.jpg",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\8b3ac21e-3086-448f-b584-9c106e893e89.jpg",
+      "PackagePath": "staticwebassets\\images\\8b3ac21e-3086-448f-b584-9c106e893e89.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\8e984a2f-aab8-4154-9a06-be7dd381b93f.jpg",
+      "PackagePath": "staticwebassets\\images\\8e984a2f-aab8-4154-9a06-be7dd381b93f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\969da5c4-d1f9-48d5-b063-81e7e510db1f.jpg",
+      "PackagePath": "staticwebassets\\images\\969da5c4-d1f9-48d5-b063-81e7e510db1f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\98d66229-7464-44fc-bed1-deff116080a0.jpg",
+      "PackagePath": "staticwebassets\\images\\98d66229-7464-44fc-bed1-deff116080a0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\b13e1995-845d-406d-90ea-8d50fe48b222.jpg",
+      "PackagePath": "staticwebassets\\images\\b13e1995-845d-406d-90ea-8d50fe48b222.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\c4c47af0-3b3a-4ceb-8d80-c369bbc18144.jpg",
+      "PackagePath": "staticwebassets\\images\\c4c47af0-3b3a-4ceb-8d80-c369bbc18144.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\hero.jpg",
       "PackagePath": "staticwebassets\\images\\hero.jpg"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

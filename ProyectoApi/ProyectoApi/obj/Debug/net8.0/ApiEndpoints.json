@@ -68,9 +68,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProyectoApi.Controllers.MenuController",
+    "ContainingType": "ProyectoApi.Controllers.CategoryController",
     "Method": "GetAll",
-    "RelativePath": "api/Menu",
+    "RelativePath": "api/Category",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -79,7 +79,23 @@
   },
   {
     "ContainingType": "ProyectoApi.Controllers.MenuController",
-    "Method": "Add",
+    "Method": "GetAll",
+    "RelativePath": "api/Menu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoApi.Controllers.MenuController",
+    "Method": "Create",
     "RelativePath": "api/Menu",
     "HttpMethod": "POST",
     "IsController": true,

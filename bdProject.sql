@@ -302,4 +302,5 @@ BEGIN
 END
 GO
 
+DELETE FROM MenuItems;
 

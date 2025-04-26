@@ -7,14 +7,10 @@ namespace ProyectoWeb.Models
     {
         [Required] public string Name { get; set; } = "";
         public string? Description { get; set; }
-
-        [Required, Range(0.01, 10000)]
-        public decimal Price { get; set; }
-
-        [Display(Name = "Imagen")]
-        public IFormFile? ImageFile { get; set; }   // nuevo para el upload
-
-        // Se usara para mostrar y enviar al API
+        [Required][Range(0.01, 9999)] public decimal Price { get; set; }
+        public IFormFile? ImageFile { get; set; }
         public string? ImageUrl { get; set; }
+        public int? CategoryId { get; set; }
     }
 }
+

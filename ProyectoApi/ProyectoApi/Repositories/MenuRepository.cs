@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Data;
-using System.Threading.Tasks;
-using Dapper;
+﻿using Dapper;
 using ProyectoApi.Helpers;
 using ProyectoApi.Interfaces;
 using ProyectoApi.Models;
+using System.Collections.Generic;
+using System.Data;
+using System.Threading.Tasks;
 
 namespace ProyectoApi.Repositories
 {
@@ -32,42 +32,34 @@ namespace ProyectoApi.Repositories
         public async Task AddAsync(MenuItem item)
         {
             using var conn = _ctx.CreateConnection();
-            await conn.ExecuteAsync(
-                "sp_AddMenuItem",
-                new
-                {
-                    item.Name,
-                    item.Description,
-                    item.Price,
-                    item.ImageUrl   // nuevo
-                },
-                commandType: CommandType.StoredProcedure);
+            var p = new DynamicParameters();
+            p.Add("Name", item.Name);
+            p.Add("Description", item.Description);
+            p.Add("Price", item.Price);
+            p.Add("ImageUrl", item.ImageUrl);
+            p.Add("CategoryId", item.CategoryId);
+            await conn.ExecuteAsync("sp_AddMenuItem", p, commandType: CommandType.StoredProcedure);
         }
 
         public async Task UpdateAsync(MenuItem item)
         {
             using var conn = _ctx.CreateConnection();
-            await conn.ExecuteAsync(
-                "sp_UpdateMenuItem",
-                new
-                {
-                    item.Id,
-                    item.Name,
-                    item.Description,
-                    item.Price,
-                    item.ImageUrl   // nuevo
-                },
-                commandType: CommandType.StoredProcedure);
+            var p = new DynamicParameters();
+            p.Add("Id", item.Id);
+            p.Add("Name", item.Name);
+            p.Add("Description", item.Description);
+            p.Add("Price", item.Price);
+            p.Add("ImageUrl", item.ImageUrl);
+            p.Add("CategoryId", item.CategoryId);
+            await conn.ExecuteAsync("sp_UpdateMenuItem", p, commandType: CommandType.StoredProcedure);
         }
 
         public async Task DeleteAsync(int id)
         {
             using var conn = _ctx.CreateConnection();
-            await conn.ExecuteAsync(
-                "sp_DeleteMenuItem",
-                new { Id = id },
-                commandType: CommandType.StoredProcedure);
+            await conn.ExecuteAsync("DELETE FROM MenuItems WHERE Id = @Id", new { Id = id });
         }
     }
 }
+
 

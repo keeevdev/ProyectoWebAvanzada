@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\ProyectoWeb.csproj": {}
+    "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\ProyectoWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\ProyectoWeb.csproj": {
+    "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\ProyectoWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\ProyectoWeb.csproj",
+        "projectUniqueName": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\ProyectoWeb.csproj",
         "projectName": "ProyectoWeb",
-        "projectPath": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\ProyectoWeb.csproj",
+        "projectPath": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\ProyectoWeb.csproj",
         "packagesPath": "C:\\Users\\keevd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\keevd\\OneDrive\\Documents\\Cuatrimestre-No.7\\Programación-Avanzada\\Proyecto\\ProyectoWeb\\ProyectoWeb\\obj\\",
+        "outputPath": "C:\\Users\\keevd\\OneDrive\\Documents\\ProyectoWeb\\ProyectoWebAvanzada\\ProyectoWeb\\ProyectoWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

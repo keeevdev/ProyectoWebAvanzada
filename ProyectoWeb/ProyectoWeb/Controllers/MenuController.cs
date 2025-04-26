@@ -1,4 +1,6 @@
-﻿using System;
+﻿// ProyectoWeb/Controllers/MenuController.cs
+using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
@@ -33,14 +35,35 @@ namespace ProyectoWeb.Controllers
             return client;
         }
 
+        private async Task<List<CategoryViewModel>> LoadCategoriesAsync()
+            => await GetClient()
+                .GetFromJsonAsync<List<CategoryViewModel>>("api/category")
+                ?? new List<CategoryViewModel>();
+
         [AllowAnonymous]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? selectedCategoryId)
         {
+            var categories = await LoadCategoriesAsync();
+
+            var url = "api/menu" +
+                      (selectedCategoryId.HasValue
+                          ? $"?categoryId={selectedCategoryId.Value}"
+                          : "");
+
             var items = await GetClient()
-                .GetFromJsonAsync<List<MenuItemViewModel>>("api/menu");
-            return View(items!);
+                .GetFromJsonAsync<List<MenuItemViewModel>>(url)
+                ?? new List<MenuItemViewModel>();
+
+            var vm = new MenuIndexViewModel
+            {
+                Categories = categories,
+                SelectedCategoryId = selectedCategoryId,
+                Items = items
+            };
+            return View(vm);
         }
 
+        // GET: /Menu/Details/{id}
         [AllowAnonymous]
         public async Task<IActionResult> Details(int id)
         {
@@ -50,102 +73,101 @@ namespace ProyectoWeb.Controllers
             return View(item);
         }
 
+        // GET: /Menu/Create
         [Authorize(Roles = "admin")]
-        public IActionResult Create()
-            => View(new CreateMenuItemViewModel());
+        public async Task<IActionResult> Create()
+        {
+            ViewBag.Categories = await LoadCategoriesAsync();
+            return View(new CreateMenuItemViewModel());
+        }
 
-        [HttpPost]
+        // POST: /Menu/Create
+        [HttpPost, ValidateAntiForgeryToken]
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create(CreateMenuItemViewModel vm)
         {
+            ViewBag.Categories = await LoadCategoriesAsync();
             if (!ModelState.IsValid)
                 return View(vm);
 
             if (vm.ImageFile != null)
             {
-                try
-                {
-                    var imagesFolder = Path.Combine(_env.WebRootPath, "images");
-                    Directory.CreateDirectory(imagesFolder);
-
-                    var fileName = $"{Guid.NewGuid()}{Path.GetExtension(vm.ImageFile.FileName)}";
-                    var filePath = Path.Combine(imagesFolder, fileName);
-
-                    await using var stream = new FileStream(filePath, FileMode.Create);
-                    await vm.ImageFile.CopyToAsync(stream);
-                    vm.ImageUrl = $"/images/{fileName}";
-                }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError("", "No se pudo guardar la imagen: " + ex.Message);
-                    return View(vm);
-                }
+                var imagesFolder = Path.Combine(_env.WebRootPath, "images");
+                Directory.CreateDirectory(imagesFolder);
+                var fileName = $"{Guid.NewGuid()}{Path.GetExtension(vm.ImageFile.FileName)}";
+                var path = Path.Combine(imagesFolder, fileName);
+                await using var fs = new FileStream(path, FileMode.Create);
+                await vm.ImageFile.CopyToAsync(fs);
+                vm.ImageUrl = $"/images/{fileName}";
             }
 
-            var dto = new CreateMenuItemDto(vm.Name, vm.Description, vm.Price, vm.ImageUrl);
+            var dto = new CreateMenuItemDto(
+                vm.Name,
+                vm.Description,
+                vm.Price,
+                vm.ImageUrl,
+                vm.CategoryId
+            );
             var res = await GetClient().PostAsJsonAsync("api/menu", dto);
+            var apiBody = await res.Content.ReadAsStringAsync();
             if (res.IsSuccessStatusCode)
                 return RedirectToAction(nameof(Index));
 
-            ModelState.AddModelError("", "Error al crear el ítem de menú.");
+            ModelState.AddModelError("", $"API Error {res.StatusCode}: {apiBody}");
             return View(vm);
         }
 
+        // GET: /Menu/Edit/{id}
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id)
         {
             var apiVm = await GetClient()
                 .GetFromJsonAsync<MenuItemViewModel>($"api/menu/{id}");
-            if (apiVm is null) return NotFound();
+            if (apiVm == null) return NotFound();
 
-            var vm = new CreateMenuItemViewModel
+            ViewBag.Categories = await LoadCategoriesAsync();
+            return View(new CreateMenuItemViewModel
             {
                 Name = apiVm.Name,
                 Description = apiVm.Description,
                 Price = apiVm.Price,
-                ImageUrl = apiVm.ImageUrl
-            };
-            return View(vm);
+                ImageUrl = apiVm.ImageUrl,
+                CategoryId = apiVm.CategoryId
+            });
         }
 
-        [HttpPost]
+        // POST: /Menu/Edit/{id}
+        [HttpPost, ValidateAntiForgeryToken]
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id, CreateMenuItemViewModel vm)
         {
+            ViewBag.Categories = await LoadCategoriesAsync();
             if (!ModelState.IsValid)
                 return View(vm);
 
             if (vm.ImageFile != null)
             {
-                try
-                {
-                    var imagesFolder = Path.Combine(_env.WebRootPath, "images");
-                    Directory.CreateDirectory(imagesFolder);
-
-                    var fileName = $"{Guid.NewGuid()}{Path.GetExtension(vm.ImageFile.FileName)}";
-                    var filePath = Path.Combine(imagesFolder, fileName);
-
-                    await using var stream = new FileStream(filePath, FileMode.Create);
-                    await vm.ImageFile.CopyToAsync(stream);
-                    vm.ImageUrl = $"/images/{fileName}";
-                }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError("", "No se pudo guardar la imagen: " + ex.Message);
-                    return View(vm);
-                }
+                var imagesFolder = Path.Combine(_env.WebRootPath, "images");
+                Directory.CreateDirectory(imagesFolder);
+                var fileName = $"{Guid.NewGuid()}{Path.GetExtension(vm.ImageFile.FileName)}";
+                var path = Path.Combine(imagesFolder, fileName);
+                await using var fs = new FileStream(path, FileMode.Create);
+                await vm.ImageFile.CopyToAsync(fs);
+                vm.ImageUrl = $"/images/{fileName}";
             }
 
-            var dto = new CreateMenuItemDto(vm.Name, vm.Description, vm.Price, vm.ImageUrl);
+            var dto = new CreateMenuItemDto(vm.Name, vm.Description, vm.Price, vm.ImageUrl, vm.CategoryId);
             var res = await GetClient().PutAsJsonAsync($"api/menu/{id}", dto);
+            var apiBody = await res.Content.ReadAsStringAsync();
             if (res.IsSuccessStatusCode)
                 return RedirectToAction(nameof(Index));
 
-            ModelState.AddModelError("", "Error al editar el ítem de menú.");
+            ModelState.AddModelError("", $"API Error {res.StatusCode}: {apiBody}");
             return View(vm);
         }
 
-        [HttpPost]
+        // POST: /Menu/Delete/{id}
+        [HttpPost, ValidateAntiForgeryToken]
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int id)
         {
@@ -154,6 +176,12 @@ namespace ProyectoWeb.Controllers
         }
     }
 }
+
+
+
+
+
+
 
 
 
