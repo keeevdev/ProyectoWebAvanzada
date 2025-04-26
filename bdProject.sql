@@ -432,3 +432,40 @@ BEGIN
     DELETE FROM Categories WHERE Id = @Id;
 END
 GO
+
+
+-----------------------------------------------------------------
+ALTER TABLE Orders
+  ADD PaymentMethod NVARCHAR(20) NOT NULL
+    CONSTRAINT DF_Orders_PaymentMethod DEFAULT 'Efectivo';
+GO
+
+ALTER PROCEDURE sp_CreateOrder
+  @UserId INT,
+  @TableNumber INT,
+  @PaymentMethod NVARCHAR(20),
+  @OrderId INT OUTPUT
+AS
+BEGIN
+  INSERT INTO Orders(UserId,TableNumber,Status,PaymentMethod)
+  VALUES(@UserId,@TableNumber,'Pending',@PaymentMethod);
+  SET @OrderId = SCOPE_IDENTITY();
+END
+GO
+
+-- En sp_GetOrdersForEmployee:
+ALTER PROCEDURE sp_GetOrdersForEmployee AS
+SELECT Id, UserId, TableNumber, Status, PaymentMethod, CreatedAt, EstimatedTimeMinutes
+  FROM Orders WHERE Status='Pending';
+GO
+
+-- En sp_GetOrdersByUser:
+ALTER PROCEDURE sp_GetOrdersByUser
+  @UserId INT
+AS
+BEGIN
+  SELECT Id, UserId, TableNumber, Status, PaymentMethod, CreatedAt, EstimatedTimeMinutes
+    FROM Orders WHERE UserId = @UserId;
+END
+GO
+
