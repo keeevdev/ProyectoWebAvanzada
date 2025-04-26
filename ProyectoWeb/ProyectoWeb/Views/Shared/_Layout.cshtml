@@ -51,6 +51,7 @@
         }
 
         main {
+            padding-top: 80px;
             flex: 1;
         }
 
@@ -109,6 +110,9 @@
     </style>
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-K+CTk+9lRkQGQ0YkMbK4WjZ1Ihf+dUZGZVRnGfTjtL0="
+            crossorigin="anonymous"></script>
     <div id="preloader">
         <div class="spinner-border text-cr-red" role="status">
             <span class="visually-hidden">Cargando...</span>
@@ -143,6 +147,7 @@
                             @if (User.IsInRole("admin"))
                             {
                                 <li class="nav-item"><a class="nav-link" asp-controller="Menu" asp-action="Create">Nuevo Ítem</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-controller="Users" asp-action="Index">Usuarios</a></li>
                             }
                             @if (User.IsInRole("usuario"))
                             {
@@ -232,19 +237,31 @@
         window.addEventListener('scroll', () => nav.classList.toggle('navbar-shrink', window.scrollY > 50));
 
         const backBtn = document.getElementById('backToTop');
-        window.addEventListener('scroll', () => backBtn.style.display = window.scrollY > 300 ? 'block' : 'none');
-        backBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+        if (backBtn) {
+            window.addEventListener('scroll', () => {
+                backBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
+            });
+
+            backBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
 
         const themeBtn = document.getElementById('themeToggle');
-        themeBtn.addEventListener('click', () => {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
-            themeBtn.innerHTML = isDark
-                ? '<img src="https://unpkg.com/heroicons@2.0.13/24/outline/moon.svg" class="icon" alt="Modo oscuro" />'
-                : '<img src="https://unpkg.com/heroicons@2.0.13/24/outline/sun.svg" class="icon" alt="Modo claro" />';
-            localStorage.setItem('theme', document.documentElement.getAttribute('data-theme'));
-        });
-        if (localStorage.getItem('theme') === 'dark') themeBtn.click();
+        if (themeBtn) {
+            themeBtn.addEventListener('click', () => {
+                const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+                document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+                themeBtn.innerHTML = isDark
+                    ? '<img src="https://unpkg.com/heroicons@2.0.13/24/outline/moon.svg" class="icon" alt="Modo oscuro" />'
+                    : '<img src="https://unpkg.com/heroicons@2.0.13/24/outline/sun.svg" class="icon" alt="Modo claro" />';
+                localStorage.setItem('theme', document.documentElement.getAttribute('data-theme'));
+            });
+
+            if (localStorage.getItem('theme') === 'dark') {
+                themeBtn.click();
+            }
+        }
     </script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-…" crossorigin="anonymous"></script>
